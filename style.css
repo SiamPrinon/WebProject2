@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: aliceblue;
+    box-shadow: -1px -6px 13px 0px;
+   
+}
+
+.logoDiv {
+    /* background-color: plum; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuList {
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* .logoDiv h2 {
+    background-color: blueviolet;
+    
+} */
+
+.menuList a {
+    text-decoration: none;
+}
+
+.menuList a:hover {
+    color: brown;
+    font-weight: 600;
+
+}
+
+.heroArea {
+    width: 100%;
+    
+    height: 80vh;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.heroContainer {
+    width: 100%;
+    
+    display: flex;
+}
+
+.textContainer {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .button {
+    position: absolute;
+    top: 50%; 
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    width: 10%;
+    height: 10%;
+    align-items: center;
+} */
+
+/* .imageContainer {
+    width: 30%;
+
+   
+}
+
+.heroImage {
+    width: 100%;
+     height: 100%; 
+    border-radius: 40%;
+} */
+
+.section__pic-container {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    display: flex;
+    height: 700px;
+    width: 700px;
+    margin: auto 0;
+}
+
+.subTitle {
+    font-weight: 600;
+    color: rgb(114, 105, 105);
+}
+
+.mainTitle {
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+.desc {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.devText {
+    color: brown;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+    background: none;
+}
+
+.btn-color-1 {
+    background: rgb(53, 53, 53);
+    color: azure;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+.icon {
+    font-family: "Poppins", sans-serif;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 3rem;
+    justify-content: right;
+    
+}
